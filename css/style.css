@@ -132,7 +132,7 @@ button {
 
 .about {
   background-color: #A5978E;
-  padding: 50px 0 60px;
+  padding: 50px 0;
   color: #fafafa;
 }
 
@@ -252,6 +252,14 @@ button {
   .top__text {
     margin-bottom: 30px;
   }
+
+  .about__content {
+    min-width: 300px;
+  }
+
+  .about__list {
+    padding-left: 20px;
+  }
 }
 
 
@@ -293,7 +301,7 @@ button {
   }
 
   .top__title {
-    font-size: 20;
+    font-size: 20px;
     margin-bottom: 20px;
   }
 
@@ -306,6 +314,40 @@ button {
     left: 180px;
   }
 
+  .title {
+    font-size: 15px;
+  }
+
+  .about__content {
+    min-width: 200px;
+  }
+
+  .about__title {
+    margin-bottom: 20px;
+  }
+
+  .about__list {
+    margin-left: 27px;
+    margin-bottom: 33px;
+    gap: 0 10px;
+  }
+
+  .about__item-text {
+    font-size: 6px;
+  }
+
+  .about__item-img {
+    margin-bottom: 6px;
+  }
+
+  .about__item-img--1,
+  .about__item-img--3 {
+    width: 120px;
+  }
+
+  .about__item-img--2 {
+    width: 190px;
+  }
 }
 
 @media (max-width: 640px) {
@@ -388,6 +430,43 @@ button {
     font-size: 10px;
     padding: 14px 41px;
   }
+
+  .about__inner {
+    align-items: flex-end;
+  }
+
+  .about__content {
+    min-width: 170px;
+  }
+
+  .about__title {
+    margin-bottom: 20px;
+  }
+
+  .about__list {
+    margin-left: 0px;
+    padding-left: 10px;
+    gap: 0 5px;
+    align-items: flex-end;
+    margin-bottom: 0;
+  }
+
+  .about__item-text {
+    display: none;
+  }
+
+  .about__item-img {
+    margin-bottom: 6px;
+  }
+
+  .about__item-img--1,
+  .about__item-img--3 {
+    width: 80px;
+  }
+
+  .about__item-img--2 {
+    width: 140px;
+  }
 }
 
 @media (max-width: 360px) {
@@ -412,4 +491,32 @@ button {
   .top__text {
     font-size: 10px;
   }
+
+  body {
+    font-size: 8px;
+  }
+
+  .about {
+    padding-top: 25px;
+    padding-bottom: 10px;
+  }
+
+  .about__content {
+    min-width: 233px;
+  }
+
+  .title {
+    margin-bottom: 10px;
+  }
+
+  .about__list {
+    margin-left: 12px;
+    padding-left: 12px;
+  }
+
+  .about__item-img--2,
+  .about__item-img--3 {
+    display: none;
+  }
+
 }
