@@ -325,6 +325,19 @@ button {
   .about__list {
     padding-left: 20px;
   }
+
+  .section__inner {
+    grid-template-columns: 290px auto;
+    gap: 0 10px;
+  }
+
+  .products__content {
+    gap: 67px;
+  }
+
+  .section__text {
+    font-size: 10px;
+  }
 }
 
 
@@ -341,6 +354,14 @@ button {
 
   .footer__social {
     justify-content: center;
+  }
+
+  .section__inner {
+    grid-template-columns: 200px auto;
+  }
+
+  .products__content {
+    gap: 30px 16px;
   }
 }
 
@@ -412,6 +433,35 @@ button {
 
   .about__item-img--2 {
     width: 190px;
+  }
+
+  .products__item {
+    width: 200px;
+  }
+
+  .products__item-img {
+    width: 200px;
+    margin-bottom: 6px;
+  }
+
+  .products__item-price {
+    font-size: 12px;
+    margin-bottom: 7px;
+  }
+
+  .products__item-title {
+    font-size: 12px;
+    margin-bottom: 9px;
+  }
+
+  .button {
+    font-size: 12px;
+    padding: 10px 26px;
+  }
+
+  .section__text {
+    font-size: 8px;
+    margin-bottom: 18px;
   }
 }
 
