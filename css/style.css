@@ -463,7 +463,6 @@ button {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 140px 0;
-  margin-bottom: 150px;
 }
 
 .promo__inner {
@@ -486,6 +485,59 @@ button {
   display: inline-block;
   padding: 14px 25px 12px;
 }
+
+.contacts {
+  padding: 150px 0 50px;
+}
+
+.contacts__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form {
+  background-color: #FFF;
+  width: 664px;
+  padding: 75px 42px 67px;
+}
+
+.form__title {
+  font-family: 'Yeseva One', cursive;
+  font-size: 40px;
+  margin-bottom: 60px;
+}
+
+.form__input {
+  background-color: #fff;
+  border: none;
+  border-bottom: 1px solid #000;
+  width: 100%;
+  display: block;
+  margin-bottom: 15px;
+  padding: 7px 10px;
+  color: #000;
+}
+
+.form__input::placeholder {
+  color: #B3B3B3;
+  font-family: 'Comfortaa', cursive;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.form__btn {
+  font-family: 'Comfortaa', cursive;
+  font-size: 14px;
+  background-color: #FFBD59;
+  color: #272727;
+  padding: 17px 34px;
+  margin-top: 36px;
+}
+
+.contacts__img {}
+
 
 .footer {
   padding-top: 40px;
