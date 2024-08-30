@@ -150,7 +150,7 @@ button {
 }
 
 .top__title {
-  font-family: 'Yeseva One', serif;
+  font-family: 'Yeseva One', cursive;
   font-size: 30px;
   margin-bottom: 15px;
   font-weight: 400;
@@ -241,14 +241,14 @@ button {
 
 .products__item-price {
   font-size: 16px;
-  font-family: 'Yeseva One', serif;
+  font-family: 'Yeseva One', cursive;
   font-weight: 400;
   margin-bottom: 12px;
 }
 
 .products__item-title {
   font-size: 16px;
-  font-family: 'Yeseva One', serif;
+  font-family: 'Yeseva One', cursive;
   font-weight: 400;
   margin-bottom: 16px;
 }
@@ -278,7 +278,7 @@ button {
   left: 0;
   font-size: 30px;
   color: #BEA495;
-  font-family: 'Yeseva One', serif;
+  font-family: 'Yeseva One', cursive;
 }
 
 .steps__item:nth-child(n+10):before {
@@ -299,7 +299,7 @@ button {
   position: relative;
   color: #fff;
   font-size: 11px;
-  font-family: 'Yeseva One', serif;
+  font-family: 'Yeseva One', cursive;
 }
 
 .courses__title {
@@ -361,7 +361,7 @@ button {
 
 .team__item-name {
   font-size: 12px;
-  font-family: 'Yeseva One', serif;
+  font-family: 'Yeseva One', cursive;
 }
 
 .team__item-descr {
@@ -411,7 +411,7 @@ button {
 .feedback__item-name {
   margin-bottom: 15px;
   font-size: 16px;
-  font-family: 'Yeseva One', serif;
+  font-family: 'Yeseva One', cursive;
 }
 
 .feedback__item-text {
@@ -458,6 +458,34 @@ button {
   text-align: left;
 }
 
+.promo {
+  background-image: url(../images/promo/promo-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 140px 0;
+  margin-bottom: 150px;
+}
+
+.promo__inner {
+  display: flex;
+  align-items: center;
+}
+
+.promo__text {
+  font-size: 40px;
+  font-family: 'Yeseva One', cursive;
+  color: #fff;
+  padding-left: 56px;
+  max-width: 765px;
+  margin-right: 110px;
+}
+
+.promo__link {
+  color: #272727;
+  background-color: #FFBD59;
+  display: inline-block;
+  padding: 14px 25px 12px;
+}
 
 .footer {
   padding-top: 40px;
