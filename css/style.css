@@ -440,7 +440,23 @@ button {
   background-color: #7b6152;
 }
 
+.certificates__slider {
+  width: 1135px;
+  overflow: hidden;
+}
 
+.certificates__descr {
+  margin-right: 20px;
+}
+
+.certificates__content {
+  padding-bottom: 114px;
+}
+
+.certificates__content .swiper-pagination {
+  bottom: 60px;
+  text-align: left;
+}
 
 
 .footer {
