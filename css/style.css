@@ -458,6 +458,43 @@ button {
   text-align: left;
 }
 
+.questions {}
+
+.questions__content {}
+
+.accordeon {}
+
+.accordeon__item {
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+
+.accordeon__title {}
+
+.accordeon__triger-text {
+
+}
+
+.accordeon__item {
+  position: relative;
+}
+
+.accordeon__item::before {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-image: url(../images/questions/arrow-down.svg);
+  right: 26px;
+  top: 17px;
+  bottom: 17px;
+  transition: transform 1s ease;
+}
+
+.accordeon__item::before .rotate {
+  transform: rotate(180deg);
+}
+
 .promo {
   background-image: url(../images/promo/promo-bg.jpg);
   background-repeat: no-repeat;
@@ -535,8 +572,6 @@ button {
   padding: 17px 34px;
   margin-top: 36px;
 }
-
-.contacts__img {}
 
 
 .footer {

@@ -20,3 +20,13 @@ const swiperTwo = new Swiper('.certificates__slider', {
     el: '.swiper-pagination',
   },
 });
+
+document.querySelectorAll('.accordeon__triger').forEach((item) => {
+  item.addEventListener('click', () => {
+    item.parentNode.classList.toggle('accordeon__item--active')
+  })
+});
+
+foo.onclick = function () {
+  this.classList.toggle('rotate')
+}
