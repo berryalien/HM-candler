@@ -458,28 +458,37 @@ button {
   text-align: left;
 }
 
-.questions {}
-
-.questions__content {}
-
-.accordeon {}
-
 .accordeon__item {
-  background-color: #fff;
+  background-color: #fafafa;
   margin-bottom: 10px;
 }
 
-.accordeon__title {}
-
-.accordeon__triger-text {
-
-}
-
-.accordeon__item {
+.accordeon__title {
+  font-size: 16px;
+  font-family: 'Yeseva One', cursive;
+  background-color: transparent;
+  display: block;
+  padding: 16px 50px 16px 13px;
   position: relative;
+  width: 100%;
+  text-align: left;
 }
 
-.accordeon__item::before {
+.accordeon__text {
+  opacity: 0;
+  max-height: 0;
+}
+
+.accordeon__text ol {
+  padding: 20px 40px;
+}
+
+.accordeon__text.accordeon__text--visible {
+  opacity: 1;
+}
+
+
+.accordeon__title::after {
   content: '';
   position: absolute;
   width: 16px;
@@ -487,13 +496,8 @@ button {
   background-image: url(../images/questions/arrow-down.svg);
   right: 26px;
   top: 17px;
-  bottom: 17px;
-  transition: transform 1s ease;
 }
 
-.accordeon__item::before .rotate {
-  transform: rotate(180deg);
-}
 
 .promo {
   background-image: url(../images/promo/promo-bg.jpg);
